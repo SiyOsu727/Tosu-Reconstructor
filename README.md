@@ -1,2 +1,2 @@
 # Tosu-Reconstructor
-Tosu-Reconstructor is an OpenTabletDriver filter plugin that estimates the original pen coordinates by applying the inverse of common hardware smoothing algorithms (such as moving average or EMA). This allows users to minimize firmware-induced smoothing, resulting in lower latency and more accurate cursor movement.
+Tosu-Reconstructor is a modified OpenTabletDriver plugin that reconstructs pen input while applying a subtle aim assist. The assist is intentionally lightweight, providing smoother target acquisition and improved consistency without significantly altering the natural feel of tablet movement. Designed to enhance the user experience rather than automate aiming.
